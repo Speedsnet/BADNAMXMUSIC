@@ -75,8 +75,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
       [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KSD_BOT_NETWORK",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/Team_riya_support",),
+            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/KSD_BOT_NETWORK",),
+            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/Team_riya_support",),
         ],
         [
             InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riya_music_robot?startgroup=true",),
