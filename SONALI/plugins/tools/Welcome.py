@@ -122,7 +122,8 @@ async def greet_group(_, member: ChatMemberUpdated):
             member.chat.id,
             photo=welcomeimg,
             caption=f"""
-❤️ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐈𝐧 𝐍𝐞𝐰 𝐆𝐫𝐨𝐮𝐩 ❣️
+
+❣️𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐈𝐧 𝐍𝐞𝐰 𝐆𝐫𝐨𝐮𝐩 ❣️
 ➖➖➖➖➖➖➖➖➖➖➖➖
 🏘{member.chat.title}🥳
 ➖➖➖➖➖➖➖➖➖➖➖➖
@@ -137,7 +138,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ┣ 𝟓 ➥ 𝐆ɪᴠᴇ  ʀᴇsᴘᴇᴄᴛ , ᴛᴀᴋᴇ  ʀᴇsᴘᴇᴄᴛ 
 ┗━━━━━━━━━━━━━━━━━      
 
-❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ ɾιყα](https://t.me/KSD_BOT_NETWORK)
+❖𝐌ᴀᴅᴇ _ 𝐁ʏ [𝐊ᴜsʜɪ _ 𝐌ᴜsɪᴄ](https://t.me/TEAM_KRITI_SUPPORT)
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url=f"https://t.me/riya_music_robot?startgroup=true")]])
         )
