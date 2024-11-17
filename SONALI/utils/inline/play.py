@@ -40,25 +40,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "🇷𝐢————————"
+        bar = "————————"
     elif 10 < umm < 20:
-        bar = "🇷𝐢𝐲———————"
+        bar = "———————"
     elif 20 <= umm < 30:
-        bar = "🇷𝐢𝐲𝐚——————"
+        bar = "——————"
     elif 30 <= umm < 40:
-        bar = "🇷𝐢𝐲𝐚 ♡—————"
+        bar = " ♡—————"
     elif 40 <= umm < 50:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌————"
+        bar = "♡ 𝐌————"
     elif 50 <= umm < 60:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮———"
+        bar = "𝐊ᴜsʜɪ _ 𝐌ᴜsɪᴄ———"
     elif 60 <= umm < 70:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬——"
+        bar = "𝐊ᴜsʜɪ _ 𝐌ᴜsɪᴄ——"
     elif 70 <= umm < 80:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢—"
+        bar = "𝐊ᴜsʜɪ _ 𝐌ᴜsɪᴄ—"
     elif 80 <= umm < 95:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢𝐜-"
+        bar = "𝐊ᴜsʜɪ _ 𝐌ᴜsɪᴄ♡-"
     else:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢𝐜 ♡"
+        bar = "𝐊ᴜsʜɪ _ 𝐌ᴜsɪᴄ ♡  ♡"
 
     buttons = [
         [
@@ -99,8 +99,8 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KSD_BOT_NETWORK",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/Team_riya_support",),
+            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/TEAM_KRITI_SUPPORT",),
+            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/TEAM_KRITI_SUPPORT",),
         ],
         [
             InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riya_music_robot?startgroup=true",),
