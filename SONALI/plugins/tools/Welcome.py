@@ -138,7 +138,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ┣ 𝟓 ➥ 𝐆ɪᴠᴇ  ʀᴇsᴘᴇᴄᴛ , ᴛᴀᴋᴇ  ʀᴇsᴘᴇᴄᴛ 
 ┗━━━━━━━━━━━━━━━━━      
 
-❖𝐌ᴀᴅᴇ  𝐁ʏ [𝐊ᴜsʜɪ _ 𝐌ᴜsɪᴄ](https://t.me/lI_BADNAM_BABY_lll)
+❖𝐌ᴀᴅᴇ  𝐁ʏ [𝐊ᴜsʜɪ 𝐌ᴜsɪᴄ](https://t.me/lI_BADNAM_BABY_lll)
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ", url=f"https://t.me/Kushi_music_bot?startgroup=true")]])
         )
