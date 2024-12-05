@@ -131,16 +131,15 @@ async def greet_group(_, member: ChatMemberUpdated):
 ● 𝐔ꜱᴇʀɴᴀᴍᴇ ➥ @{user.username} 
 
 ┏━━━━━━━━━━━━━━━
-┣ 𝟏 ➥ ᴅᴏɴᴛ ᴀʙᴜsɪɴɢ 
-┣ 𝟐 ➥ ᴅᴏɴᴛ sᴘᴀᴍ 
+┣ 𝟏 ➥ ᴅᴏɴᴛ ᴀʙᴜsɪɴɢ  👣𝐑ᴇsᴘᴇᴄᴛ ᴇᴠᴇʀʏᴏɴᴇ ɢɪᴠᴇ 𝐑ᴇsᴘᴇᴄᴛ 𝐓ᴀᴋᴇ 𝐑ᴇsᴘᴇᴄᴛ
+┣ 𝟐 ➥ ᴅᴏɴᴛ sᴘᴀᴍ 💗𝐑ᴇsᴘᴇ𝐂ᴛ 𝐄ᴠᴇʀ𝐘 𝐁ᴏ𝐘 𝐅ᴇᴇʟɪɴ𝐆
 ┣ 𝟑 ➥ ʟɪɴᴋ ɴᴏᴛ ᴀʟʟᴏᴡ 
 ┣ 𝟒 ➥ ᴅᴏɴᴛ sᴇɴᴅ ᴀᴅᴜʟᴛ sᴛᴜғғ
-┣ 𝟓 ➥ 𝐆ɪᴠᴇ  ʀᴇsᴘᴇᴄᴛ , ᴛᴀᴋᴇ  ʀᴇsᴘᴇᴄᴛ 
 ┗━━━━━━━━━━━━━━━━━      
 
-❖𝐌ᴀᴅᴇ  𝐁ʏ [𝐊ᴜsʜɪ 𝐌ᴜsɪᴄ](https://t.me/lI_BADNAM_BABY_lll)
+❖𝐌ᴀᴅᴇ  𝐁ʏ [𝐊ʀɪsʜ 𝐌ᴜsɪᴄ](https://t.me/krishnetwork)
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ", url=f"https://t.me/Kushi_music_bot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ", url=f"https://t.me/syn_ixbot?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
