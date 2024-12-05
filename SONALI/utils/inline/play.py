@@ -75,11 +75,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
       [
-            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/TEAM_KRITI_SUPPORT",),
-            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/TEAM_KRITI_SUPPORT",),
+            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/KRISHSUPPORT",),
+            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/KRISHSUPPORT",),
         ],
         [
-            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/Kushi_music_bot?startgroup=true",),
+            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/synixbot?startgroup=true",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
@@ -99,11 +99,11 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/TEAM_KRITI_SUPPORT",),
-            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/TEAM_KRITI_SUPPORT",),
+            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/KRISHSUPPORT",),
+            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/KRISHSUPPORT",),
         ],
         [
-            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/Kushi_music_bot?startgroup=true",),
+            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/synixbot?startgroup=true",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
